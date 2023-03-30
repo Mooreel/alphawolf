@@ -55,7 +55,7 @@ def calculate(query):
 
 if __name__ == "__main__":
     while True:
-        user_input = input("Enter your calculation or type 'exit' to quit: ")
+        user_input = input("Enter your query or type 'exit' to quit: ")
         if user_input.lower() == "exit":
             break
         result = calculate(user_input)

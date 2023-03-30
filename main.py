@@ -48,7 +48,7 @@ def ask_wolframalpha(query):
 
 def calculate(query):
     chatgpt_result = ask_chatgpt(query)
-    if "calculate" in chatgpt_result.lower() or "solve" in chatgpt_result.lower():
+    if "solve" in chatgpt_result.lower():
         return ask_wolframalpha(query)
     return chatgpt_result
 

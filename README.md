@@ -1,5 +1,5 @@
 # alphawolf
-As currently ChatGPT plugins are invite only, I created a very simple tool to include WolframAlpha for responses for real time data.
+As currently ChatGPT plugins are invite only, I created a very simple tool to include WolframAlpha for real time data.
 
 1. add environment variable for your ChatGPT API key,
 2. register a WolframAlpha App and add its app id as an environment variable too.
